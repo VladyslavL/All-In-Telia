@@ -1,15 +1,15 @@
 /* fonts */
 @font-face {
-  font-family: 'Noe Text';
-  src: url('../fonts/NoeText-Bold.otf') format("opentype");
-  font-weight: bold;
+  font-family: 'Arial';
+  src: url('../fonts/arial.ttf') format("opentype");
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Maison Neue';
-  src: url('../fonts/MaisonNeue-Book.otf') format("opentype");
-  font-weight: normal;
+  font-family: 'Arial';
+  src: url('../fonts/arialbd.ttf') format("opentype");
+  font-weight: bold;
   font-style: normal;
 }
 

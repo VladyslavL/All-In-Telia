@@ -18,7 +18,7 @@ body {
 }
 
 html {
-    font: 400 21px/1.4 "Maison Neue", sans-serif;
+    font: normal 21px/1.4 "Arial", sans-serif;
     box-sizing: border-box;
     -ms-text-size-adjust: none;
     -webkit-text-size-adjust: none;
@@ -641,7 +641,7 @@ textarea:-ms-input-placeholder {
 
 .bg,
 .video_scene__inner {
-    /* background-size: contain; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -1179,6 +1179,23 @@ div.wpcf7 .screen-reader-response {
     }
 }
 
+.button.is_reitan {
+    padding: 0 14px;
+    background: #281758;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0);
+    font-size: 16px;
+}
+
+.button.is_reitan:active {
+    background: #281758
+}
+
+@media screen and (min-width: 1025px) {
+    .button.is_reitan:hover {
+        background: #281758
+    }
+}
+
 .button.is_fb {
     background: #415893;
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0)
@@ -1310,7 +1327,7 @@ div.wpcf7 .screen-reader-response {
 }
 
 h1 {
-    font: normal 34px/1.25 "Arial", sans-serif;
+    font: normal 34px/1.25 "Arial";
     letter-spacing: -0.03113em;
     font-weight: bold;
 }
@@ -1967,7 +1984,7 @@ header .button.scroll_down:hover{
 
     .footer__buttons .button:not(.is_share) {
         pointer-events: all;
-        padding: 0;
+/*         padding: 0; */
         min-width: 55px;
     }
 
@@ -2469,7 +2486,7 @@ header .button.scroll_down:hover{
 
 .video__desc {
 /*     max-width: 314px */
-    font: bold 13px/1.2 "Arial", sans-serif;
+font-size: 13px;
 }
 
 @media screen and (min-width: 1025px) {
