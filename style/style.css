@@ -1310,7 +1310,7 @@ div.wpcf7 .screen-reader-response {
 }
 
 h1 {
-    font: bold 34px/1.25 "Noe Text", sans-serif;
+    font: normal 34px/1.25 "Arial", sans-serif;
     letter-spacing: -0.03113em;
     font-weight: bold;
 }
@@ -1833,10 +1833,12 @@ b {
 }
 
 header {
-    background: #e01220;
-    height: 70px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    position: relative;
+    z-index: 2;
+    background-color: #281758;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -1978,9 +1980,9 @@ header .button.scroll_down:hover{
         display: none;
     }
 
-    .footer__buttons .button.is_fb_msg{
+/*     .footer__buttons .button.is_fb_msg{
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 1024px) {
@@ -2342,7 +2344,7 @@ header .button.scroll_down:hover{
 @media screen and (min-width: 1025px) {
     .video_scene__inner {
         position: absolute;
-        top: 70px;
+        top: 0;
         left: 0;
         right: 0;
         bottom: 0;
@@ -2467,6 +2469,7 @@ header .button.scroll_down:hover{
 
 .video__desc {
 /*     max-width: 314px */
+    font: bold 13px/1.2 "Arial", sans-serif;
 }
 
 @media screen and (min-width: 1025px) {
