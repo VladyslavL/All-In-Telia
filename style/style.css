@@ -1327,7 +1327,7 @@ div.wpcf7 .screen-reader-response {
 }
 
 h1 {
-    font: normal 34px/1.25 "Arial";
+    font: normal 34px/1.25 "Pebble";
     letter-spacing: -0.03113em;
     font-weight: bold;
 }
@@ -1852,7 +1852,7 @@ b {
 header {
     position: relative;
     z-index: 2;
-    background-color: #281758;
+    background-color: #fff;
     height: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1994,12 +1994,6 @@ header .button.scroll_down:hover{
     }
 
     .footer__buttons .button:not(.is_share) span{
-        display: none;
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    .footer__buttons .button.is_fb_msg{
         display: none;
     }
 }

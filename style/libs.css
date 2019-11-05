@@ -7,11 +7,18 @@
 }
 
 @font-face {
+  font-family: 'Pebble';
+  src: url('../fonts/Pebble-CAPS.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
   font-family: 'Arial';
   src: url('../fonts/arialbd.ttf') format("opentype");
   font-weight: bold;
   font-style: normal;
-}
+} */
 
 
 
